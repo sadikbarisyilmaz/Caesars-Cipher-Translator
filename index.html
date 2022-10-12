@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="d-flex justify-content-center mt-5">
+        <div class="card bg-light" style="width: 25rem;">
+            <div class="card-body">
+              <h5 class="h5 text-center mt-2">- Caesar Cipher Translator -</h5>
+              <div class="input-group mb-3 mt-4">
+                <input type="text" id="input" class="form-control" placeholder="ENTER TEXT" aria-label="Enter word" aria-describedby="basic-addon2">
+                <button onclick="rot13()" class="btn btn-primary" type="button" id="button-addon2">Decipher</button>
+              </div>
+              <p id="result" class="card-text text-center mt-4 mb-2"></p>
+            </div>
+          </div>
+    </div>
+    
+    <script src="/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
